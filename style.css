@@ -732,5 +732,10 @@ span.text {
 .otheracc{
     display: flex;
     justify-content: space-between;
-    width: 24%;
+}
+
+@media screen and (min-width: 768px) {
+    .otheracc{
+        width: 24%;
+    }
 }
